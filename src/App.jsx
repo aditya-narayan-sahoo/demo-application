@@ -8,8 +8,6 @@ import Layout from "./components/layout/Layout";
 function App() {
   return (
     <BrowserRouter>
-      {" "}
-      {/* BrowserRouter now wraps the entire Layout */}
       <Layout>
         <Routes>
           <Route path="/" element={<AllMeetUpsPage />} />

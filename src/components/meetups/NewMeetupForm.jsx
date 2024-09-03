@@ -29,11 +29,11 @@ const NewMeetupForm = (props) => {
           <input type="text" required id="title" ref={titleInput} />
         </div>
         <div className="control">
-          <label htmlFor="image">Meetup Image</label>
+          <label htmlFor="image">Meetup Image URL</label>
           <input type="url" required id="image" ref={imageInput} />
         </div>
         <div className="control">
-          <label htmlFor="address">Address</label>
+          <label htmlFor="address">Address for the Meetup</label>
           <input type="text" required id="address" ref={addressInput} />
         </div>
         <div className="control">
